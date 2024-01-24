@@ -4,20 +4,21 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   const baseLinkClass =
-    "tracking-wider block px-3 py-2 text-normal font-normal hover:text-stone-500";
-  const activeLinkClass = "text-stone-500";
-  const inactiveLinkClass = "text-stone-400";
+    "tracking-wider block px-3 py-2 text-normal text-gray-800 hover:font-medium";
+  const activeLinkClass = "font-medium";
+  const inactiveLinkClass = "font-light";
 
   return (
-    <Disclosure as="nav" className="bg-white py-1 fixed top-0 left-0 right-0 z-50">
+    <Disclosure as="nav" className="bg-white py-1">
       {({ open }) => (
         <>
           <div className="mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
-                {/* <div className="flex-shrink-0">
-                  <img className="h-8 w-auto" src="/icon.png" alt="Logo" />
-                </div> */}
+                <div className="flex-shrink-0">
+                  <h1 className="font-extrabold text-4xl mr-5 text-orange-600">{"< C />"}</h1>
+                  {/* <img className="h-8 w-auto" src="/icon.png" alt="Logo" /> */}
+                </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     <NavLink
@@ -58,7 +59,7 @@ const Nav = () => {
                   href="https://www.linkedin.com/in/comels/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-stone-400 hover:text-stone-500 text-2xl"
+                  className="text-stone-700 hover:text-stone-500 text-2xl"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
@@ -66,7 +67,7 @@ const Nav = () => {
                   href="https://www.github.com/comels/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-stone-400 hover:text-stone-500 text-2xl"
+                  className="text-stone-700 hover:text-stone-500 text-2xl"
                 >
                   <i className="fab fa-github"></i>
                 </a>

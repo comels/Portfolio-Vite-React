@@ -42,11 +42,14 @@ const Contact = () => {
   return (
     <div>
       <Nav />
-      <div className="min-h-screen bg-stone-100 px-6 mt-20 py-20 sm:py-20 lg:px-8">
-        <div
-          className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
-          aria-hidden="true"
-        ></div>
+      <div className="min-h-screen bg-stone-100 px-6 py-10 lg:px-8">
+        <h1 className="text-3xl font-semibold text-stone-500 text-center mb-5">
+          Me Contacter
+        </h1>
+        <p className="text-stone-500 mb-10 max-w-xl mx-auto text-justify">
+        Vous avez un projet en tête ou souhaitez discuter d'une collaboration potentielle ? N'hésitez pas à me contacter. Je suis toujours ouvert à de nouvelles opportunités et serais ravi d'apporter mes compétences en développement web à votre projet. Remplissez simplement le formulaire ci-dessous ou envoyez-moi un e-mail, et je vous répondrai dans les plus brefs délais.
+          </p>
+
         <form ref={form} className="mx-auto max-w-xl" onSubmit={sendEmail}>
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
             <div>
