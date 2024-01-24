@@ -6,26 +6,7 @@ import Meteo from "../assets/Meteo-1.png";
 const posts = [
   {
     title: "Films Database",
-    href: "#",
-    description:
-      "Explorez mon projet de recherche de films, alimenté par l'API TMDB. Ce site interactif permet aux utilisateurs de découvrir des films, de les rechercher par titres et de les ajouter à une liste de favoris personnalisée.",
-    imageUrl: FilmDBImage,
-    date: "Janv 2024",
-    category: "React - Tailwind",
-  },
-  {
-
-    title: "Météo Vue",
-    href: "https://meteovuejs.netlify.app",
-    description:
-      "Explorez mon projet de recherche de films, alimenté par l'API TMDB. Ce site interactif permet aux utilisateurs de découvrir des films, de les rechercher par titres et de les ajouter à une liste de favoris personnalisée.",
-    imageUrl: Meteo,
-    date: "Juin 2023",
-    category: "Vue - Tailwind",
-  },
-  {
-    title: "Films Database",
-    href: "#",
+    href: "https://filmdata.netlify.app/",
     description:
       "Explorez mon projet de recherche de films, alimenté par l'API TMDB. Ce site interactif permet aux utilisateurs de découvrir des films, de les rechercher par titres et de les ajouter à une liste de favoris personnalisée.",
     imageUrl: FilmDBImage,
