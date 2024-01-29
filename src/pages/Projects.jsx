@@ -2,8 +2,18 @@ import React from "react";
 import Nav from "../components/Nav";
 import FilmDBImage from "../assets/FilmDB.png";
 import Meteo from "../assets/Meteo-1.png";
+import Maharaja from "../assets/Maharaja.png";
 
 const posts = [
+  {
+    title: "Le Maharaja",
+    href: "https://restaurant-maharaja.netlify.app",
+    description:
+      "Site réalisé pour le restaurant le Maharaja. Ce site interactif permet aux utilisateurs de découvrir le restaurant, de consulter la carte et de réserver une table.",
+    imageUrl: Maharaja,
+    date: "Janvier 2024",
+    category: "React - Tailwind",
+  },
   {
     title: "Films Database",
     href: "https://filmdata.netlify.app/",
@@ -14,7 +24,6 @@ const posts = [
     category: "React - Tailwind",
   },
   {
-
     title: "Météo Vue",
     href: "https://meteovuejs.netlify.app",
     description:
@@ -51,7 +60,7 @@ const Projects = () => {
                     <img
                       src={post.imageUrl}
                       alt=""
-                      className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                      className="aspect-[16/9] w-full rounded-xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
                     />
                     <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
                   </div>
